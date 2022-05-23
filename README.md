@@ -26,7 +26,7 @@ $ pip install -r requirements.txt
 
 ## Test
 
-Download our pretrained model [link](https://drive.google.com/file/d/10pKJn9hO4sI5XDNqTHIoCQuT3D_4eENc/view?usp=sharing) and put it in './ckpt/' folder.
+Download our pretrained model [[link]](https://drive.google.com/file/d/10pKJn9hO4sI5XDNqTHIoCQuT3D_4eENc/view?usp=sharing) and put it in './ckpt/' folder.
   ```
   $ python ./code/test.py --data_path <dir_to_data> --save_eval_pngs
   ```
