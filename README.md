@@ -26,13 +26,14 @@ $ pip install -r requirements.txt
 
 ## Test
 
-Inference with image directory
+Download our pretrained model [link](https://drive.google.com/file/d/10pKJn9hO4sI5XDNqTHIoCQuT3D_4eENc/view?usp=sharing) and put it in './ckpt/' folder.
   ```
   $ python ./code/test.py --data_path <dir_to_data> --save_eval_pngs
   ```
   
 ## Train
 
+Download the pretrained model 'swin_base_patch4_window7_224_22k.pth' provided by [Swin-Transformer](https://github.com/microsoft/Swin-Transformer) and put it in './ckpt/' folder.
   ```
   $ python ./code/train.py --data_path <dir_to_data> --exp_name train --save_model --save_result
   ```
